@@ -3,7 +3,6 @@ import Typical from 'react-typical'
 import Head from "next/head";
 import React from "react";
 export default function blog(){
-
     return   (
         <>
             <Head>
