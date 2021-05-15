@@ -34,6 +34,5 @@ export const Title = styled.div`
  flex: 1;
  height: 100vh;
  color: black;
-  font-family:"Fira Code Medium",-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
- font-size: 3rem;
+  font-family:"Fira Sans" font-size: 3rem;
 `
