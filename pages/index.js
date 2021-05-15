@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.scss'
 import photo from '../public/images/photo.jpeg';
 import { motion } from "framer-motion";
 import { Blob } from 'react-blob'
-
+import Link from 'next/link'
 export default function Home() {
     const [isActive, setIsActive] = React.useState(false);
   return (
@@ -17,8 +17,10 @@ export default function Home() {
        </Head>
 
         <div className={styles.container} >
-           <div className={styles.leftContainer}>
-               <text>My Projects </text>
+
+            <div className={styles.leftContainer}>
+                <Link href="/projects"><text>My Projects  </text></Link>
+
                </div>
             <div className={styles.profile}>
                 <motion.img src={photo}  animate={{ scale: 2.5 }}
