@@ -81,16 +81,15 @@
   }
   text{
 
-    width: 28vw;
+    width: 35vw;
     margin-bottom: 2vw;
-    text-align: center;
     display: flex;
     flex-direction: column;
     font-family: 'Fira Code', monospace;
-    text-align: center;
-    display: flex;
     font-size:2vw;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     @media screen and (max-width: 900px){
       font-size: 3vw;
 
