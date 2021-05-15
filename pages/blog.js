@@ -14,7 +14,7 @@ export default function blog(){
                 loop={Infinity}
                 wrapper="p"
             />
-                <a href="https://medium.com/@yusuf.deepwork"><Typical
+                <a href="https://yusuf-deepwork.medium.com/"><Typical
                     steps={['My medium account.', 1000]}
                     loop={Infinity}
                     wrapper="p"

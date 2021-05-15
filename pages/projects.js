@@ -19,7 +19,7 @@ export default function projects(){
                 wrapper="p"
             />
             <a href="https://github.com/yusufdeepwork"><Typical
-                steps={['Go my github account.', 100000]}
+                steps={['Go to my github account.', 100000]}
                 loop={Infinity}
                 wrapper="p"
             /> </a>
