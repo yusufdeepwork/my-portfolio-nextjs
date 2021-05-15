@@ -6,10 +6,14 @@ import photo from '../public/images/photo.jpeg';
 import { motion } from "framer-motion";
 import { Blob } from 'react-blob'
 import Link from 'next/link'
+
+
 export default function Home() {
+
     const [isActive, setIsActive] = React.useState(false);
   return (
       <>
+
        <Head>
          <title>Yusuf Tanrıkulu</title>
         <meta name="description" content="Yusuf Tanrıkulu" />
@@ -25,7 +29,10 @@ export default function Home() {
                                    transition={{ duration: 5 }}/>
                                    <text> Yusuf Tanrıkulu</text>
                 <text> Software Developer & Computer Engineering Student who has so curious and energetic✨</text>
-               <text>Don’t hesitate to contact me</text>
+
+                <a href="https://www.linkedin.com/in/yusuf-tanrikulu/">
+                    <text>Don’t hesitate to contact me</text>
+                </a>
             </div>
             <div className={styles.rightContainer}><Link href="/blog"><text>Blog</text></Link></div>
         </div>

@@ -3,7 +3,10 @@ import Typical from 'react-typical'
 import Head from "next/head";
 import React from "react";
 export default function projects(){
+   const github = () => {
 
+   }
+    setTimeout(github,5000);
  return   (
      <>
          <Head>
@@ -11,10 +14,16 @@ export default function projects(){
              <meta name="description" content="Projects" />
          </Head>
             <Title><Typical
-                steps={['Projects will come soon', 5000]}
+                steps={['Projects will come soon', 1000,'You can view my github account.',1000]}
                 loop={Infinity}
                 wrapper="p"
-            /></Title>
+            />
+            <a href="https://github.com/yusufdeepwork"><Typical
+                steps={['Go my github account.', 100000]}
+                loop={Infinity}
+                wrapper="p"
+            /> </a>
+            </Title>
      </>
  )
 }
@@ -24,6 +33,7 @@ export const Title = styled.div`
  justify-content: center;
  align-items: center;
  display: flex;
+  flex-direction: column;
  flex: 1;
  height: 100vh;
  color: black;

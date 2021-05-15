@@ -11,10 +11,16 @@ export default function blog(){
                 <meta name="description" content="Blog" />
             </Head>
             <Title><Typical
-                steps={['Blog will come soon', 5000]}
+                steps={['Blog will come soon', 5000,'You can look my medium account.']}
                 loop={Infinity}
                 wrapper="p"
-            /></Title>
+            />
+                <a href="https://medium.com/@yusuf.deepwork"><Typical
+                    steps={['My medium account.', 1000]}
+                    loop={Infinity}
+                    wrapper="p"
+                /> </a>
+            </Title>
         </>
     )
 }
@@ -24,6 +30,7 @@ export const Title = styled.div`
  justify-content: center;
  align-items: center;
  display: flex;
+  flex-direction: column;
  flex: 1;
  height: 100vh;
  color: black;
