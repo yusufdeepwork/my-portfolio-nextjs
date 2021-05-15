@@ -1,12 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import React from "react";
 import styles from '../styles/Home.module.scss'
 import photo from '../public/images/photo.jpeg';
 import { motion } from "framer-motion";
-import { Blob } from 'react-blob'
+import Typical from 'react-typical'
 import Link from 'next/link'
-
 
 export default function Home() {
 
@@ -27,8 +25,12 @@ export default function Home() {
             <div className={styles.profile}>
                 <motion.img src={photo}  animate={{ scale: 2.5 }}
                                    transition={{ duration: 5 }}/>
-                                   <text> Yusuf Tanrıkulu</text>
-                <text> Software Developer & Computer Engineering Student who has so curious and energetic✨</text>
+                                   <text>Yusuf Tanrıkulu</text>
+                <text><Typical
+                    steps={['Software Developer',2000,'Computer Engineering Student',2000]}
+                    loop={Infinity}
+                    wrapper="p"
+                />who has so curious and energetic✨</text>
 
                 <a href="https://www.linkedin.com/in/yusuf-tanrikulu/">
                     <text>Don’t hesitate to contact me</text>
