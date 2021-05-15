@@ -1,11 +1,35 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   height: 100vh;
+
+}
+.leftContainer {
+  background-color: #0B47FB6B;
+;
+  float: left;
+  width: 32vw;
+  height: 100%;
+}
+.rightContainer {
+  background-color:  #5EFFC0;
+  width: 32vw;
+  height: 100%;
+  float: right;
+}
+
+.profile{
+
+
+  display: flex;
+  img{
+    margin-top: 5vw;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 500px;
+  }
 }
 
 .main {
@@ -24,30 +48,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+    text-decoration: underline;
+  }
+
 }
 
 .title,
@@ -88,25 +109,24 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 65%;
+  card:hover,
+  card:focus,
+  card:active {
+    color: #0070f3;
+    border-color: #0070f3;
+  }
+  h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
 
 .logo {
   height: 1em;
