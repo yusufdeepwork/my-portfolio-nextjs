@@ -17,10 +17,8 @@ export default function Home() {
        </Head>
 
         <div className={styles.container} >
-
             <div className={styles.leftContainer}>
-                <Link href="/projects"><text>My Projects  </text></Link>
-
+                <Link href="/projects"><text>My Projects</text></Link>
                </div>
             <div className={styles.profile}>
                 <motion.img src={photo}  animate={{ scale: 2.5 }}
@@ -28,9 +26,8 @@ export default function Home() {
                                    <text> Yusuf Tanrıkulu</text>
                 <text> Software Developer & Computer Engineering Student who has so curious and energetic✨</text>
                <text>Don’t hesitate to contact me</text>
-
             </div>
-            <div className={styles.rightContainer}> <text>Blog </text></div>
+            <div className={styles.rightContainer}><Link href="/blog"><text>Blog</text></Link></div>
         </div>
       </>
       // {/*<main className={styles.main}>*/}

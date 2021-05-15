@@ -2,21 +2,21 @@ import styled, { createGlobalStyle } from "styled-components";
 import Typical from 'react-typical'
 import Head from "next/head";
 import React from "react";
-export default function projects(){
+export default function blog(){
 
- return   (
-     <>
-         <Head>
-             <title>Projects</title>
-             <meta name="description" content="Projects" />
-         </Head>
+    return   (
+        <>
+            <Head>
+                <title>Blog</title>
+                <meta name="description" content="Blog" />
+            </Head>
             <Title><Typical
-                steps={['Projects will come soon', 5000]}
+                steps={['Blog will come soon', 5000]}
                 loop={Infinity}
                 wrapper="p"
             /></Title>
-     </>
- )
+        </>
+    )
 }
 
 export const Title = styled.div`
