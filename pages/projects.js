@@ -37,5 +37,6 @@ export const Title = styled.div`
  flex: 1;
  height: 100vh;
  color: black;
-  font-family:"Fira Sans" font-size: 3rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 3rem;
 `

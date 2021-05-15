@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 .container {
   min-height: 100vh;
 
@@ -21,7 +20,7 @@
 
   text{
     color: #FFFFFF;
-    font-family:"Fira Code Retina";
+    font-family: 'Fira Code', monospace;
     font-size: 4vw;
     cursor: pointer;
 
@@ -48,7 +47,7 @@
   }
   text{
     color: #FFFFFF;
-    font-family:"Fira Code Retina";
+    font-family: 'Fira Code', monospace;
     cursor: pointer;
     font-size: 4vw;
     @media screen and (max-width: 750px){
@@ -87,7 +86,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-family:"Fira Code Retina";
+    font-family: 'Fira Code', monospace;
     text-align: center;
     display: flex;
     justify-content: center;

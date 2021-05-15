@@ -3,7 +3,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family:"Fira Code";
+  font-family: 'Fira Code', monospace;
 }
 
 a {
