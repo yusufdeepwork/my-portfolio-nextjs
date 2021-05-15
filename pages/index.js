@@ -5,7 +5,7 @@ import photo from '../public/images/photo.jpeg';
 import { motion } from "framer-motion";
 import Typical from 'react-typical'
 import Link from 'next/link'
-
+import "@fontsource/fira-code";
 export default function Home() {
 
     const [isActive, setIsActive] = React.useState(false);
