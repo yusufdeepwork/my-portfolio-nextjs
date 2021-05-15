@@ -80,17 +80,18 @@
     }
   }
   text{
-    margin-top: 1vw;
+
     width: 28vw;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
     text-align: center;
     display: flex;
     flex-direction: column;
     font-family: 'Fira Code', monospace;
     text-align: center;
     display: flex;
+    font-size:2vw;
     justify-content: center;
-    @media screen and (max-width: 750px){
+    @media screen and (max-width: 900px){
       font-size: 3vw;
 
     }
