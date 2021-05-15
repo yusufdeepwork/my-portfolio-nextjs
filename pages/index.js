@@ -1,9 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import React from "react";
 import styles from '../styles/Home.module.scss'
 import photo from '../public/images/photo.jpeg';
+import { motion } from "framer-motion";
+import { Blob } from 'react-blob'
 
 export default function Home() {
+    const [isActive, setIsActive] = React.useState(false);
   return (
       <>
        <Head>
@@ -13,12 +17,18 @@ export default function Home() {
        </Head>
 
         <div className={styles.container} >
-           <div className={styles.leftContainer}>Projelerim</div>
+           <div className={styles.leftContainer}>
+               <text>My Projects </text>
+               </div>
             <div className={styles.profile}>
-                <img src={photo}/>
+                <motion.img src={photo}  animate={{ scale: 2.5 }}
+                                   transition={{ duration: 5 }}/>
+                                   <text> Yusuf Tanrıkulu</text>
+                <text> Software Developer & Computer Engineering Student who has so curious and energetic✨</text>
+               <text>Don’t hesitate to contact me</text>
 
             </div>
-            <div className={styles.rightContainer}>Blog</div>
+            <div className={styles.rightContainer}> <text>Blog </text></div>
         </div>
       </>
       // {/*<main className={styles.main}>*/}

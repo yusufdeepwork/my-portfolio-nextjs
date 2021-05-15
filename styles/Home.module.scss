@@ -8,27 +8,58 @@
 }
 .leftContainer {
   background-color: #0B47FB6B;
-;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+
   float: left;
   width: 32vw;
   height: 100%;
+  text{
+    color: #FFFFFF;
+    font-family: "Fira Code";
+    font-size: 2vw;
+  }
+
 }
 .rightContainer {
-  background-color:  #5EFFC0;
+  background-color: #00FF9B;
+
   width: 32vw;
   height: 100%;
   float: right;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+
+  text{
+    color: #FFFFFF;
+    font-family: "Fira Code";
+    font-size: 2vw;
+  }
 }
 
 .profile{
-
-
+  flex-direction: column;
+  align-items: center;
   display: flex;
   img{
-    margin-top: 5vw;
-    width: 15vw;
-    height: 15vw;
+    margin-top: 10vw;
+    margin-bottom: 7.5vw;
+    width: 7.5vw;
+    height: 7.5vw;
     border-radius: 500px;
+  }
+  text{
+    margin-top: 1vw;
+    width: 28vw;
+    margin-bottom: 3vw;
+    text-align: center;
+    font-family: "Fira Code";
+    font-size: 2vw;
+
   }
 }
 
