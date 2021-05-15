@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fontsource/fira-code": "^4.3.0",
     "framer-motion": "^4.1.16",
     "next": "10.2.0",
     "react": "17.0.2",
