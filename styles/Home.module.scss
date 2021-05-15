@@ -1,11 +1,4 @@
 
-@font-face {
-  font-family: 'Fira Code';
-  src: url("../public/fonts/FiraCode-VariableFont_wght.ttf");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
 
 
 .container {
@@ -29,7 +22,7 @@
 
   text{
     color: #FFFFFF;
-    font-family: "Fira Code";
+    font-family:"Fira Code Medium",-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-size: 4vw;
     cursor: pointer;
 
@@ -55,8 +48,7 @@
   }
   text{
     color: #FFFFFF;
-    font-family: "Fira Code";
-    font-size: 4vw;
+    font-family:"Fira Code Medium",-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;    font-size: 4vw;
     cursor: pointer;
     @media screen and (max-width: 750px){
       font-size: 5vw;
@@ -94,8 +86,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-family: "Fira Code";
-    font-size: 1.5vw;
+    font-family:"Fira Code Medium",-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;    font-size: 1.5vw;
     text-align: center;
     display: flex;
     justify-content: center;
